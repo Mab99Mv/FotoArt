@@ -31,11 +31,14 @@ function App() {
            <button onClick={reqApi} className="btn-search">Buscar Personaje</button> 
 
            <br></br>
+           <h2 className="title">Autor: Mabel Perez Garibay </h2>
+           <h3 className='title'>Ingenieria de software</h3>
            <img 
             src={imcre} 
             alt="Autor" 
             style={{ width:'200px', height:'auto'}}
             className="img-home"></img>
+            
           
         </>
        )}
