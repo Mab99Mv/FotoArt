@@ -1,4 +1,5 @@
 import image from './../img/rick.jpeg';
+import imcre from './../imgcre/credencial.jpeg'
 import './../styles/App.css';
 import {useState} from "react"
 import Characters from './Characters';
@@ -27,7 +28,15 @@ function App() {
             alt="Rick & Morty" 
             style={{ width:'200px', height:'auto'}}
             className="img-home"></img>
-           <button onClick={reqApi} className="btn-search">Buscar Personaje</button>   
+           <button onClick={reqApi} className="btn-search">Buscar Personaje</button> 
+
+           <br></br>
+           <img 
+            src={imcre} 
+            alt="Autor" 
+            style={{ width:'200px', height:'auto'}}
+            className="img-home"></img>
+          
         </>
        )}
        
