@@ -27,7 +27,10 @@ function App() {
             alt="Rick & Morty" 
             style={{ width:'200px', height:'auto'}}
             className="img-home"></img>
-           <button onClick={reqApi} className="btn-search">Buscar Personaje</button>   
+           <button onClick={reqApi} className="btn-search">Buscar Personaje</button> 
+           <br></br>
+          
+          
         </>
        )}
        

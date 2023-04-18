@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #738f93;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -56,8 +56,10 @@ body {
   padding: 50px;
 }
 
+
+
 .btn-search {
-  background-color: #1ba94c;
+  background-color: #1ba;
   color: #ffffff;
   box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
   font-size: 18.005px;
